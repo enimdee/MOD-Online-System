@@ -16,3 +16,13 @@ footer { padding: 32px 16px 60px; opacity: .7; text-align: center; }
 .nav a:hover { filter: brightness(1.1); }
 .page { background:#111827; border:1px solid #1f2937; border-radius:12px; padding:16px; box-shadow:0 6px 20px rgba(0,0,0,.25); }
 .page h2 { margin-top:0; }
+
+.form .row { display:flex; flex-direction:column; gap:6px; margin-bottom:12px; }
+input, select, textarea { padding:10px 12px; border-radius:10px; border:1px solid #334155; background:#0b1220; color:#e2e8f0; }
+input::placeholder, textarea::placeholder { color:#94a3b8; }
+.table-wrap { overflow:auto; border-radius:12px; border:1px solid #1f2937; }
+.table { width:100%; border-collapse: collapse; }
+.table th, .table td { padding:10px 12px; border-bottom:1px solid #1f2937; text-align:left; }
+.link { background:transparent; border:1px solid #334155; padding:6px 10px; border-radius:8px; cursor:pointer; }
+.link.danger { border-color:#ef4444; }
+.muted { opacity:.7; }
