@@ -1,0 +1,17 @@
+{
+  "name": "mod-online-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "migrate": "node migrate.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "sqlite3": "^5.1.7"
+  }
+}
