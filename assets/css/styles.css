@@ -10,3 +10,9 @@ button { padding: 10px 14px; border-radius: 10px; border: 1px solid #334155; bac
 button:hover { filter: brightness(1.05); }
 footer { padding: 32px 16px 60px; opacity: .7; text-align: center; }
 @media (min-width: 768px) { main { grid-template-columns: 1fr 1fr; } }
+
+.nav { display:flex; gap:12px; padding: 8px 0; }
+.nav a { text-decoration:none; padding:8px 12px; border:1px solid #334155; border-radius:10px; }
+.nav a:hover { filter: brightness(1.1); }
+.page { background:#111827; border:1px solid #1f2937; border-radius:12px; padding:16px; box-shadow:0 6px 20px rgba(0,0,0,.25); }
+.page h2 { margin-top:0; }
